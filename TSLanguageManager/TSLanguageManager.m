@@ -25,6 +25,8 @@
 
 #import "TSLanguageManager.h"
 
+#define kLMSelectedLanguageKey  @"kLMSelectedLanguageKey"
+
 @implementation TSLanguageManager
 
 // Update this method with your specific supported languages.

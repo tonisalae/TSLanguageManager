@@ -31,8 +31,6 @@
 #define kLMEnglish          @"en"
 #define kLMSpanish          @"es"
 
-#define kLMSelectedLanguageKey  @"kLMSelectedLanguageKey"
-
 @interface TSLanguageManager : NSObject {
 }
 
