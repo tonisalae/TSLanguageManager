@@ -17,6 +17,8 @@
 		E21D78DD160DB5E000A86D22 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21D78DB160DB5E000A86D22 /* ViewController.xib */; };
 		E21D78F3160DB7ED00A86D22 /* TSLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E21D78F2160DB7ED00A86D22 /* TSLanguageManager.m */; };
 		E21D7902160DBAA700A86D22 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E21D78FF160DBAA700A86D22 /* Localizable.strings */; };
+		E21D7915160DC44500A86D22 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E21D7914160DC44500A86D22 /* Icon.png */; };
+		E21D7917160DC46200A86D22 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E21D7916160DC46200A86D22 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		E21D78F2160DB7ED00A86D22 /* TSLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLanguageManager.m; sourceTree = "<group>"; };
 		E21D7900160DBAA700A86D22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E21D7901160DBAA700A86D22 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E21D7914160DC44500A86D22 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		E21D7916160DC46200A86D22 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 				E21D78D8160DB5E000A86D22 /* ViewController.h */,
 				E21D78D9160DB5E000A86D22 /* ViewController.m */,
 				E21D78DB160DB5E000A86D22 /* ViewController.xib */,
+				E21D7903160DC3DC00A86D22 /* Resources */,
 				E21D78CD160DB5E000A86D22 /* Supporting Files */,
 			);
 			path = TSLanguageManagerDemo;
@@ -122,6 +127,15 @@
 				E21D78FF160DBAA700A86D22 /* Localizable.strings */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		E21D7903160DC3DC00A86D22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E21D7914160DC44500A86D22 /* Icon.png */,
+				E21D7916160DC46200A86D22 /* Icon@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +195,8 @@
 				E21D78D1160DB5E000A86D22 /* InfoPlist.strings in Resources */,
 				E21D78DD160DB5E000A86D22 /* ViewController.xib in Resources */,
 				E21D7902160DBAA700A86D22 /* Localizable.strings in Resources */,
+				E21D7915160DC44500A86D22 /* Icon.png in Resources */,
+				E21D7917160DC46200A86D22 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
